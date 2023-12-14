@@ -1,0 +1,38 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE */
+.bg-red {
+  --bs-bg-opacity: 1;
+  background-color: red;
+  opacity: 90%;
+}
+.bold {
+  font-weight: 700 !important;
+
+}
+.bump {
+  margin-top: 10px;
+}
+.boost {
+  margin-top: 60px;
+}
+.btn-dang {
+  color: #fff;
+  background-color: red;
+  border-color: #dc3545;
+}
+.bang{
+  margin-left:20px;
+}
+.blast{
+  margin-left:100px;
+}
+.pick{
+  color:red;
+}
+.banger{
+  margin-left:50px;
+}
+.cent {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%

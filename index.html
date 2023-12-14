@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="How to build a dnd character">
+        <meta name="author" content="Schuyler Lear">
+        <title>Basics to building a DnD character</title>
+        <link rel="icon" type="image/x-icon" href="assets/dnd-logo.jpg" />
+  <!-- LOAD BOOTSTRAP CSS - DO NOT DELETE -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+     <link href="styles.css" rel="stylesheet">
+  <!-- END LOADING BOOTSTRAP CSS -->
+
+      
+    <!-- Custom styles -->
+    <link href="custom.css" rel="stylesheet">
+
+
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+            <div class="container px-4">
+                <a class="navbar-brand" href="#page-top">Dungeons and Dragons Character Creation</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <!-- The hrefs here must match the ID attribute of the corresponding divs/containers -->
+                        <li class="nav-item"><a class="nav-link" href="#what">What is D&D?</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#race">Race</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#class">Class</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#personality">Personality</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#background">Background</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="bg-red bg-gradient text-white">
+            <div class="container px-4 text-center">
+                <h1 class="fw-bolder">Welcome to Dungeons & Dragons</h1>
+                <p class="lead">First things first. Time to figure out who you'll be.</p>
+                <a class="btn btn-lg btn-light" href="#what">Let's get started</a>
+            </div>
+        </header>
+        <!-- About section - the ID attribute value here must match the corresponding href in navigation -->
+        <!-- For example - this section with id="about" must match the href="#about" in the navigation -->
+        <section id="what" class="bg-dark">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <img src="images/dnd_hero.jpg" class="img-fluid" alt="a group of four adventurers on a stone bridge about to battle a fire breathing dragon.">
+                    </div>
+                    <div class="col-lg-8 text-white">
+                        <h2 class="boost">What is D&D?</h2>
+                        <p class="lead">Dungeons and Dragons is a role playing game where each player creates their own character to play as. Characters customization is only limited by your imagination, and there are dozens of different play styles and prompts for role playing. Even if there is something you want to play as that isn't included, there are hundreds of homebrew races and classes that range from original ideas to well known characters. But where do you start? What goes into making a character to play? There's 4 major parts:</p>
+                        <ul>
+                            <li class="bump"><span class="bold">Race</span> - The species you will be playing as. They include humans, elves, dwarves, and so many more. Your race will help define customs your character may have as well as inherent traits that come with your species, like dark vision or flight. It may also give you access to other languages, or even entirely new means of communication.</li>
+                            <li class="bump"><span class="bold">Class</span> - Your class is almost like your profession, but on a much more personal level. It changes how you percieve and interact with the world and people around you, and maybe even how they interact back. A barbarian, with crushing strength and the ability to enter a rage to further boosts it, will try to solve the issue of an ambush or a trap differently than how a rogue or a wizard might. Your class will also help determine your abilities and items, and what skills you might be proficient in.</li>
+                            <li class="bump"><span class="bold">Personality</span> - Now are the more customizable steps. Personality encompasses everything that makes your character a unique individual. Their height, their weight, their name - you can even draw or sketch your character right on your character sheet! </li>
+                            <li class="bump"><span class="bold">Background</span> - Characters of the same race and class can still be played extremely differently. Your background is the niche and intricate history of your character. How they react to an insult. The foods they like. The things they hate. Their end goal. All of this is up to you. Run wild with your imagination, and play a character in any ways you'd like.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- Services section-->
+    <section class="bg-black" id="race">
+        <div class="container px-4">
+            <div class="row gx-4 justify-content-center">
+                <div class="col-lg-8 text-white">
+                    <h2>Part 1: Race</h2>
+                    <p class="lead">Your character's race determines many key traits that will aid you in your adventuring. It's usually a good idea to read up on a few races to find one that has the closest attributes and mannerisms to the character you want to play. The races are:</p>
+                    <div id="racelist" class="row">
+                        <ul class="col-md-5 boost bang">
+                            <li>
+                            <button type="button" class="btn btn-dang bump" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Dwarves
+                            </button>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="dwarf" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5 text-black" id="dwarf">Dwarves</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="images/dwarf2.png" alt="A dwarf warrior wielding her hammer">
+                                            <p class="text-black bump lead">Dwarves are known for their short and stout stature. Despite their small sizes, they are one of the most sturdy races around, with an intrinsic +2 to constitution, which is the stat that determines your health and willpower.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="https://www.dndbeyond.com/races/13-dwarf" class="btn btn-primary" target="_blank" tabindex="-1" role="button">Race Info Page</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </li>
+                            <li>
+                            <button type="button" class="btn btn-dang bump" data-bs-toggle="modal" data-bs-target="#elfmodal">
+                            Elves
+                            </button>
+                            <div class="modal fade" id="elfmodal" tabindex="-1" aria-labelledby="elf" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5 text-black" id="elf">Elves</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="images/elf.png" alt="An elf casting a spell.">
+                                            <p class="text-black lead">Elves are very similar to humans, with the difference being their slim bodies and what is described as haunting beauty. Their skin, along with normal human pigmentation, can be copper, bluish white, or bronze, with blue or green hair and silver and gold eyes. Their slender frame allows them to move quickly and silently, and gives them an intrinsic +2 to Dexterity, which is the stat associated with speed and agility.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="https://www.dndbeyond.com/races/3-elf" class="btn btn-primary" target="_blank" tabindex="-1" role="button">Race Info Page</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </li>
+                            <li>
+                            <button type="button" class="btn btn-dang bump" data-bs-toggle="modal" data-bs-target="#halflingmodal">
+                            Halflings
+                            </button>
+                            <div class="modal fade" id="halflingmodal" tabindex="-1" aria-labelledby="halfModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5 text-black" id="halfModalLabel">Halflings</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="images/halfling.png" alt="A halfling bard playing her lute">
+                                            <p class="text-black bump lead">Halflings are not too far from what many people know as Hobbits. They're very short, live in small rural communities or villages, and are known for their curiosity. Their small size allows them to be incredibly nimble and sneaky, giving them a +2 in Dexterity.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="https://www.dndbeyond.com/races/14-halfling" class="btn btn-primary" target="_blank" tabindex="-1" role="button">Race Info Page</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </li>
+                            <li>
+                            <button type="button" class="btn btn-dang bump" data-bs-toggle="modal" data-bs-target="#humanmodal">
+                            Humans
+                            </button>
+                            <div class="modal fade" id="humanmodal" tabindex="-1" aria-labelledby="ehumModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5 text-black" id="ehumModalLabel">Humans</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="images/human.png" alt="A human holding her staff clad in leather armor.">
+                                            <p class="text-black bump lead">Humans are the most diverse of the races. With settlements and kingdoms all across the land, Humans have developed a large variety of different cultures and skills. This diversity gives Humans a +1 in each ability score.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="https://www.dndbeyond.com/races/1-human" class="btn btn-primary" target="_blank" tabindex="-1" role="button">Race Info Page</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </li>
+                            <li>
+                            <button type="button" class="btn btn-dang bump" data-bs-toggle="modal" data-bs-target="#dragonbornmodal">
+                            Dragonborn
+                            </button>
+                            <div class="modal fade" id="dragonbornmodal" tabindex="-1" aria-labelledby="dragModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5 text-black" id="dragModalLabel">Dragonborn</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="images/dragonborn.png" alt="A dragonborn warlock weilding a staff and decorative weapon">
+                                            <p class="text-black bump lead">Hatched from Dragon eggs and shaped by the Dragons themselves, Dragonborn are a proud race that is feared bt many. Many Dragonborn are aligned with a True Dragon, but some find themselves seeking their own purpose. Their draconic origins give them both a +2 in Strength, the stat that determines physical stength and durability, and a +1 in Charisma, the stat that determines your abilities in conversing with others and deception.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="https://www.dndbeyond.com/races/16-dragonborn" class="btn btn-primary" target="_blank" tabindex="-1" role="button">Race Info Page</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </li>
+                            <li>
+                            <button type="button" class="btn btn-dang bump" data-bs-toggle="modal" data-bs-target="#gnomemodal">
+                            Gnomes
+                            </button>
+                            <div class="modal fade" id="gnomemodal" tabindex="-1" aria-labelledby="gnoModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5 text-black" id="gnoModalLabel">Gnomes</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="images/gnome.png" alt="A gnome holding a bow with an arrow drawn.">
+                                            <p class="text-black bump lead">Gnomes exist somewhere between Halflings and Fairies. They're tight knit communities and curiousity for life leeds them to use magic to constantly tinker on new magic items and research nature and magic around them. This thirst gives Gnomes a natural +2 to Intelligence, the state that determines both your "book smarts" and studied knowledge, as well as your abilities and power with magic.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="https://www.dndbeyond.com/races/18-gnome" class="btn btn-primary" target="_blank" tabindex="-1" role="button">Race Info Page</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </li>
+                            <li>
+                            <button type="button" class="btn btn-dang bump" data-bs-toggle="modal" data-bs-target="#halfelfmodal">
+                            Half-Elves
+                            </button>
+                            <div class="modal fade" id="halfelfmodal" tabindex="-1" aria-labelledby="helfModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5 text-black" id="helfModalLabel">Half-Elves</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="images/halfelf.png" alt="a Half elf cleric casting a spell.">
+                                            <p class="text-black bump lead">Half-Elves combine the best parts of their parent's - Humans' curiosity and ambition and Elves' refined senses and being in tune with nature. Half-Elves have the long lives of elves, but mature at the rate of Humans, and they usually find themselves having to pick between the two. This means they either live longer than their friends around them, or they mature much faster than they're friends, who will still be children by the time a Half-Elf matures. Their natural ability to make these switches and commune with others gives them a +2 in Charisma, and their human adaptability gives them a +1 in two other ability scores.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="https://www.dndbeyond.com/races/20-half-elf" class="btn btn-primary" target="_blank" tabindex="-1" role="button">Race Info Page</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </li>
+                            <li>
+                            <button type="button" class="btn btn-dang bump" data-bs-toggle="modal" data-bs-target="#halforcmodal">
+                            Half-Orcs
+                            </button>
+                            <div class="modal fade" id="halforcmodal" tabindex="-1" aria-labelledby="horcModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5 text-black" id="horcModalLabel">Half-Orcs</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="images/halforc.png" alt="a Half orc wielding a large wooden mallet">
+                                            <p class="text-black bump lead">The children of often unlikely alliances, Half-Orcs combine the great strength of the Orcs and the cunning and self-discipline of Humans. This often results in Half-Orcs being leaders of their tribes or strong enough to venture off on their own. They have an intrinsic +2 to Strength and +1 to Constitution.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="https://www.dndbeyond.com/races/2-half-orc" class="btn btn-primary" target="_blank" tabindex="-1" role="button">Race Info Page</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </li>
+                            <li>
+                            <button type="button" class="btn btn-dang bump" data-bs-toggle="modal" data-bs-target="#tieflingmodal">
+                            Tieflings
+                            </button>
+                            <div class="modal fade" id="tieflingmodal" tabindex="-1" aria-labelledby="tiefModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5 text-black" id="tiefModalLabel">Tieflings</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="images/tiefling.png" alt="a tiefling dressed in blue robes with flaming hands.">
+                                            <p class="text-black bump lead">Tieflings are the most discriminated against race, and to absolutely no fault of their own. Tieflings are the result of an ancient pact with Asmodeus, Overlord of the Nine Hells, which infused demonic essance into their bloodline. This gives them a +1 to Intelligence and a +2 to Charisma, likely due to the cunning they must learn.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="https://www.dndbeyond.com/races/7-tiefling" class="btn btn-primary" target="_blank" tabindex="-1" role="button">Race Info Page</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </li>                      
+                        </ul>
+                        <img src="images/race.png" class="img-fluid col-md-6 boost" alt="A Halfling, Half-elf, Tiefling, Elf, Dragonborn, and Human surrounded by various enemies.">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- Contact section-->
+        <section id="class" class="bg-dark">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-md-5 text-white">
+                        <h2>Part 2: Class</h2>
+                        <p class="lead">Your character's class represents more than just your job. It reflects your charaters upbringing, education, and niche interests and skills. Often times, it is a good idea to pair your race and class to double up on natural strengths, like an elf rogue or a half-orc barbarian. The classes are:</p>
+                        <ul>
+                            <li>
+                            <button type="button" class="btn btn-dang bump" data-bs-toggle="modal" data-bs-target="#barbModal">
+                            Barbarian
+                            </button>
+                            <div class="modal fade" id="barbModal" tabindex="-1" aria-labelledby="barbModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5 text-black" id="barbModalLabel">Barbarian</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="images/barb.png" alt="A human Barbarian standiong with an axe on his shoulder.">
+                                            <p class="text-black bump lead">Barbarians are fighters who utilize their sheer strength and natural instincts. They focus on up close combat, entering a berserker state to hit hard and eat hits.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="https://www.dndbeyond.com/classes/barbarian" class="btn btn-primary" target="_blank" tabindex="-1" role="button">Class Info Page</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </li>
+                            <li>
+                            <button type="button" class="btn btn-dang bump" data-bs-toggle="modal" data-bs-target="#bardModal">
+                            Bard
+                            </button>
+                            <div class="modal fade" id="bardModal" tabindex="-1" aria-labelledby="bardModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5 text-black" id="bardModalLabel">Bard</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="images/bard.png" alt="A bard holding her Lute over her shoulder">
+                                            <p class="text-black bump lead">Bards are the staple Charisma focused class. Your strengths lie in your ability to boost allies in combat, lure enemies to sleep, heal those around you, and much more through your song.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="https://www.dndbeyond.com/classes/bard" class="btn btn-primary" target="_blank" tabindex="-1" role="button">Class Info Page</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </li>
+                            <li>
+                            <button type="button" class="btn btn-dang bump" data-bs-toggle="modal" data-bs-target="#clericModal">
+                            Cleric
+                            </button>
+                            <div class="modal fade" id="clericModal" tabindex="-1" aria-labelledby="clerModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5 text-black" id="clerModalLabel">Cleric</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="images/cleric.png" alt="A Dwarf Cleric holding his warhammer.">
+                                            <p class="text-black bump lead">Clerics use divine magic granted to them by whichever of the various gods theyh serve. Whether to heal friends or cast spells on foes, they fight due to their connection to their god and fight in a way that pleases them, which can vary wildly from god to god.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="https://www.dndbeyond.com/classes/cleric" class="btn btn-primary" target="_blank" tabindex="-1" role="button">Class Info Page</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </li>
+                            <li>
+                            <button type="button" class="btn btn-dang bump" data-bs-toggle="modal" data-bs-target="#druidModal">
+                            Druid
+                            </button>
+                            <div class="modal fade" id="druidModal" tabindex="-1" aria-labelledby="druidModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5 text-black" id="druidModalLabel">Druid</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="images/druid.png" alt="A druid communing with his animal familiar, a hawk.">
+                                            <p class="text-black bump lead">Druids are the extensions of nature's will. They use magic to control weather, make plants grow fast enough to use them as a weapon, and can commune with and even transform into animals. They defend nature with a mix of both hand to hand combat and magic.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="https://www.dndbeyond.com/classes/druid" class="btn btn-primary" target="_blank" tabindex="-1" role="button">Class Info Page</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </li>
+                            <li>
+                            <button type="button" class="btn btn-dang bump" data-bs-toggle="modal" data-bs-target="#fighterModal">
+                            Fighter
+                            </button>
+                            <div class="modal fade" id="fighterModal" tabindex="-1" aria-labelledby="fightModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5 text-black" id="fightModalLabel">Fighter</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="images/fighter.png" alt="A human fighter, sword in one hand and shield and spear in the other.">
+                                            <p class="text-black bump lead">Fighter is the "Human" of the classes. It encompasses any and all forms of weapon or unarmed combat. This class is set up for customization and will allow you to weild any weapon you can dream of.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="https://www.dndbeyond.com/classes/fighter" class="btn btn-primary" target="_blank" tabindex="-1" role="button">Class Info Page</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </li>
+                            <li>
+                            <button type="button" class="btn btn-dang bump" data-bs-toggle="modal" data-bs-target="#monkModal">
+                            Monk
+                            </button>
+                            <div class="modal fade" id="monkModal" tabindex="-1" aria-labelledby="monkModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5 text-black" id="monkModalLabel">Monk</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="images/monk.png" alt="A monk with a gentle light emanating from her hands">
+                                            <p class="text-black bump lead">Monks use magic that flows through their bodies called ki. This allows them to hit fast an hard, reinforce their bodies, or even control the elements around them.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="https://www.dndbeyond.com/classes/monk" class="btn btn-primary" target="_blank" tabindex="-1" role="button">Class Info Page</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </li>
+                            <li>
+                            <button type="button" class="btn btn-dang bump" data-bs-toggle="modal" data-bs-target="#palModal">
+                            Paladin
+                            </button>
+                            <div class="modal fade" id="palModal" tabindex="-1" aria-labelledby="palModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5 text-black" id="palModalLabel">Paladin</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="images/pal.png" alt="A paladin holds up his shield and yells.">
+                                            <p class="text-black bump lead">Paladins are differentiated by one thing - thier oaths. All Paladins have made an oath, either to defend, to destroy, to recover, or to seek vengeance. This oath, and their unwavering loyalty to it, grant them strength and makes them a blessed champion.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="https://www.dndbeyond.com/classes/paladin" class="btn btn-primary" target="_blank" tabindex="-1" role="button">Class Info Page</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </li>
+                            <li>
+                            <button type="button" class="btn btn-dang bump" data-bs-toggle="modal" data-bs-target="#rangerModal">
+                            Ranger
+                            </button>
+                            <div class="modal fade" id="rangerModal" tabindex="-1" aria-labelledby="rangeModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5 text-black" id="rangeModalLabel">Ranger</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="images/ranger.png" alt="A ranger stands relaxed, with an arrow resting in her bow.">
+                                            <p class="text-black bump lead">Rangers are the hunters of DnD, using mastery of the outdoors and nature to move swiftly and stealthily through the wild. While they don't largely use magic, the have an understanding of nature comparable  to Druids.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="https://www.dndbeyond.com/classes/ranger" class="btn btn-primary" target="_blank" tabindex="-1" role="button">Class Info Page</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </li>
+                            <li>
+                            <button type="button" class="btn btn-dang bump" data-bs-toggle="modal" data-bs-target="#rogueModal">
+                            Rogue
+                            </button>
+                            <div class="modal fade" id="rogueModal" tabindex="-1" aria-labelledby="rogModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5 text-black" id="rogModalLabel">Rogue</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="images/rogue.png" alt="A rouge in all black, brandishing two daggers.">
+                                            <p class="text-black bump lead">Rogues are the Rangers of cities. The travel through crowds unnoticed, taking what they want and striking when they can. Rogues are often seen as criminals, and rightfully so. They excel at finding opportunites to make their move.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="https://www.dndbeyond.com/classes/rogue" class="btn btn-primary" target="_blank" tabindex="-1" role="button">Class Info Page</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </li>
+                            <li>
+                            <button type="button" class="btn btn-dang bump" data-bs-toggle="modal" data-bs-target="#sorcModal">
+                            Sorcerer
+                            </button>
+                            <div class="modal fade" id="sorcModal" tabindex="-1" aria-labelledby="sorcModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5 text-black" id="sorcModalLabel">Sorcerer</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="images/sorc.png" alt="A sorcerer surges with power, flames swirling around him.">
+                                            <p class="text-black bump lead">What seperates Sorcerers from other mages is that Sorcerers' magic comes from within themselves. Whether they were exposed to a source of great magic, or happen to have an extraordinary bloodline, all sorcerers have have an understanding and control of magic that can't be taught.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="https://www.dndbeyond.com/classes/sorcerer" class="btn btn-primary" target="_blank" tabindex="-1" role="button">Class Info Page</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </li>
+                            <li>
+                            <button type="button" class="btn btn-dang bump" data-bs-toggle="modal" data-bs-target="#warModal">
+                            Warlock
+                            </button>
+                            <div class="modal fade" id="warModal" tabindex="-1" aria-labelledby="warlModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5 text-black" id="warlModalLabel">Warlock</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="images/war.png" alt="A warlock holding a seal and staff with white blank eyes.">
+                                            <p class="text-black bump lead">Warlocks are scholars and researchers of ancient arcana. This has lead them to seek knowledge in ancient beings. Warlocks channel the power they receive from these beings to fight, and their spells are ancient and spectacular.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="https://www.dndbeyond.com/classes/warlock" class="btn btn-primary" target="_blank" tabindex="-1" role="button">Class Info Page</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </li>
+                            <li>
+                            <button type="button" class="btn btn-dang bump" data-bs-toggle="modal" data-bs-target="#wizModal">
+                            Wizard
+                            </button>
+                            <div class="modal fade" id="wizModal" tabindex="-1" aria-labelledby="wizModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5 text-black" id="wizModalLabel">Wizard</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="images/wiz.png" class="blast" alt="an ornately dressed wizard leaning on his staff">
+                                            <p class="text-black bump lead">Wizards have the unique ability to learn. Their magic has been gained through years of dilligent study, and can always learn new spells to add to their grimoire. This allows them to have incredibly diverse play styles.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="https://www.dndbeyond.com/classes/wizard" class="btn btn-primary" target="_blank" tabindex="-1" role="button">Class Info Page</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </li>                                               
+                        </ul>
+                    </div>
+                    <img src="images/class.jpg" class="img-fluid col-md-7" alt="A paladin, ranger, sorceror, and fighter against a band of hobgoblins.">
+                </div>
+            </div>
+        </section>
+        <!-- Services section-->
+        <section class="bg-black text-white" id="personality">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Part 3: Personality</h2>
+                        <p class="lead">In Dungeons and Dragons, your personality is different from what it is in the real world. It doesn't just mean your mannerisms or who you are, it is more so used as the unique physical traits that you decide for your character. This includes name, age, height, and weight, all of which have unique ranges and options depending on your race, all of which can be found on their respective info page, <a class="pick" href="#racelist">here.</a></p>
+                    </div>
+                    <div class="justify-content-center bump">
+                        <div id="carouselExample" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="images/elves.jpg" class="d-block w-100" alt="Three elves of varying class and appearance">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/dwarves.png" class="d-block w-100" alt="Three dwarves of varying class and appearance">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/humans.jpg" class="d-block w-100" alt="Three humans of varying class and appearance">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="container px-4">
+                        <div class="row gx-4 justify-content-center">
+                            <div>
+                                <p class="boost lead">One of the most important distinctions is your Alignment. This whil determine the morals your character follows throught your campaign. For a general starter, true neutral will allow you to really do whatever you want, but chaotic or even lawful good are good options too.</p>
+                            </div>
+                            <div>
+                                <img src="images/DnD-Alignments.jpg" class="img-fluid cent" alt="the standard dnd affinity chart.">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact section-->
+        <section id="background" class="bg-dark text-white">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Part 4: Background</h2>
+                        <p class="lead">Your Background is where you came from, how you see the world, and your job before becoming an adventurer. This will aid you in telling the stopry that is your character. It also helps you to answer the biggest question for your character - why did they become an adventurer?</p>
+                        <img src="images/back.jpg" alt="a card for each of the base backgrounds." class="img-fluid">
+                        <a href="https://www.dndbeyond.com/backgrounds?filter-name=&filter-source=1&filter-partnered-content=f" class="btn btn-dang bump" target="_blank" tabindex="-1" role="button">Backgrounds</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-black">
+            <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy;Schuyler Lear's Website 2023</p></div>
+        </footer>
+
+
+
+
+
+        <!-- LOAD BOOTSTRAP JAVASCRIPT - DO NOT DELETE BELOW -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- DO NOT DELETE ABOVE - END LOADING JAVASCRIPT -->
+    </body>
+</html>
